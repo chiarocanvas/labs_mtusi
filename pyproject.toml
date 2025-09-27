@@ -1,0 +1,10 @@
+[project]
+name = "labs-mtusi"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fire>=0.7.1",
+    "manim>=0.19.0",
+]
