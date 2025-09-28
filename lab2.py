@@ -1,6 +1,6 @@
 import fire
 
-def describe_person(name: str, age: int = 30):
+def describe_person(name: str, age: int = 30) -> None:
     """Описывает человека по имени и возрасту"""
     print(f"Человек по имени {name}, возраст: {age} лет")
 
